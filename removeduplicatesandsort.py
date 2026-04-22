@@ -7,6 +7,3 @@ for j in range(1,len(arr)):
 for k in range(i+1,len(arr)):
     arr[k] = '_'
 print(arr)
-
-
-        
