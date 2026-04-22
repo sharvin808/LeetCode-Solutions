@@ -8,7 +8,7 @@ for _ in range(k):
         nums[i] = nums[i-1]
     nums[0] = temp
 print(nums)
-# this method would exceeds the time limit
+# this method would exceeds the time limit O(n*k)
 
 n = len(nums)
 k = k % n
