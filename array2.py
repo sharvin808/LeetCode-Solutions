@@ -1,3 +1,4 @@
+#one soln
 arr = [5,10,15,20]
 total = 0
 for i in arr:
@@ -18,6 +19,7 @@ for i in range(len(arr)):
     if arr[i] == 15:
         print(i)
 
+#sort soln
 arr1 = [1,2,3,4]
 left = 0
 right = len(arr1)-1
